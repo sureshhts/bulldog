@@ -1,0 +1,786 @@
+/!\ FAILSAFE /!\  Thu Apr 22 12:16:28 +0530 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/dependencies.rb:156:in `require'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/dependencies.rb:156:in `require'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activesupport/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+    /home/ramesh/Desktop/bulldog/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /home/ramesh/Desktop/bulldog/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /home/ramesh/Desktop/bulldog/vendor/rails/railties/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-04-22 12:17:23) [GET]
+  [4;35;1mSQL (141.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (14.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Completed in 184ms (View: 4, DB: 156) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (93.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `name` varchar(100) DEFAULT '', `email` varchar(100), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422075648')[0m
+Migrating to CreateAccounts (20100422080227)
+  [4;36;1mSQL (94.0ms)[0m   [0;1m
+ CREATE TABLE accounts (
+		id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+		time_created INT(11) UNSIGNED NOT NULL,
+		deleted enum('Yes','No') NOT NULL default 'No',
+		user_id varchar(50) default NULL,
+		passphrase_digest varchar(255) default NULL,
+		account_type varchar(50) NOT NULL,
+		hashed_password varchar(255) default NULL,
+		PRIMARY KEY (id)
+		) ENGINE=InnoDB;
+	[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422080227')[0m
+Migrating to CreateAccountProfiles (20100422080353)
+  [4;36;1mSQL (125.0ms)[0m   [0;1m
+ CREATE TABLE account_profiles (
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	first_name varchar(30) not null,
+	last_name varchar(30) default null,
+	gender enum('m', 'f') NOT NULL default 'm',
+	address1 varchar(50) not NULL,
+	address2 varchar(50) default NULL,
+	city varchar(30) not null,
+	state varchar(30) not null,
+	zipcode varchar(10) not null,
+	contact_number varchar(15) not null,
+	email_address varchar(50) not null,
+	account_id int(11) UNSIGNED NOT Null,
+	PRIMARY KEY (id),
+	Foreign key(account_id) references accounts(id) on delete cascade on update cascade
+	) ENGINE=InnoDB;
+ [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422080353')[0m
+Migrating to CreateFacilities (20100422080830)
+  [4;36;1mSQL (62.0ms)[0m   [0;1m
+ create table facilities(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	address1 varchar(50) not NULL,
+	address2 varchar(50) default NULL,
+	city varchar(30) not null,
+	state varchar(30) not null,
+	zipcode varchar(10) not null,
+	primary key(id)
+	)Engine = InnoDB;
+ [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422080830')[0m
+Migrating to CreatePlayerLevels (20100422081100)
+  [4;36;1mSQL (63.0ms)[0m   [0;1m
+ create table player_levels(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	primary key(id)
+	)Engine = InnoDB;
+	[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422081100')[0m
+Migrating to CreateTournamentCategories (20100422081214)
+  [4;36;1mSQL (78.0ms)[0m   [0;1m
+ create table tournament_categories(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	primary key(id)
+	)Engine = InnoDB;
+	[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422081214')[0m
+Migrating to CreateAccountPlayingDetails (20100422081408)
+  [4;36;1mSQL (110.0ms)[0m   [0;1m
+ create table account_playing_details(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	account_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	level_id INT(11) UNSIGNED NOT NULL,
+	verified enum('Yes','No') not null default 'No',
+	Primary key(id),
+	Foreign key(account_id) references accounts(id) on delete cascade on update cascade,
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade,
+	Foreign key(level_id) references player_levels(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;35;1mSQL (46.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422081408')[0m
+Migrating to CreateTournaments (20100422081534)
+  [4;36;1mSQL (47.0ms)[0m   [0;1m
+ create table tournaments(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	city varchar(50) not null,
+	tournament_type enum('L','K') not null default 'L',
+	kind_of_tournament enum('O','S') not null default 'O',
+	registration_starts INT(11) UNSIGNED NOT NULL,
+	registration_ends INT(11) UNSIGNED NOT NULL,
+	tournament_starts INT(11) UNSIGNED NOT NULL,
+	category_id INT(11) UNSIGNED NOT null,
+	primary key(id)
+	)Engine = InnoDB;
+
+	[0m
+  [4;35;1mSQL (46.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422081534')[0m
+Migrating to CreateTournamentDivisions (20100422081739)
+  [4;36;1mSQL (94.0ms)[0m   [0;1m
+ create table tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	tournament_id INT(11) UNSIGNED NOT NULL,
+	no_of_players int(11) UNSIGNED default null,
+	Primary key(id),
+	Foreign key(tournament_id) references tournaments(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;35;1mSQL (47.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422081739')[0m
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	facility_id UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign ke' at line 3: 
+ create table facilities_tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	tournament_division_id UNSIGNED NOT NULL,
+	facility_id UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_division_id) references tournament_divisions(id) on delete cascade on update cascade
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade
+	)Engine=InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+Migrating to CreateAccounts (20100422080227)
+Migrating to CreateAccountProfiles (20100422080353)
+Migrating to CreateFacilities (20100422080830)
+Migrating to CreatePlayerLevels (20100422081100)
+Migrating to CreateTournamentCategories (20100422081214)
+Migrating to CreateAccountPlayingDetails (20100422081408)
+Migrating to CreateTournaments (20100422081534)
+Migrating to CreateTournamentDivisions (20100422081739)
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Foreign key(facility_id) references facilities(id) on delete cascade on update c' at line 7: 
+ create table facilities_tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	tournament_division_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_division_id) references tournament_divisions(id) on delete cascade on update cascade
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade
+	)Engine=InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+Migrating to CreateAccounts (20100422080227)
+Migrating to CreateAccountProfiles (20100422080353)
+Migrating to CreateFacilities (20100422080830)
+Migrating to CreatePlayerLevels (20100422081100)
+Migrating to CreateTournamentCategories (20100422081214)
+Migrating to CreateAccountPlayingDetails (20100422081408)
+Migrating to CreateTournaments (20100422081534)
+Migrating to CreateTournamentDivisions (20100422081739)
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Foreign key(facility_id) references facilities(id) on delete cascade on update c' at line 7: 
+ create table facilities_tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	tournament_division_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_division_id) references tournament_divisions(id) on delete cascade on update cascade
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade
+	)Engine=InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+Migrating to CreateAccounts (20100422080227)
+Migrating to CreateAccountProfiles (20100422080353)
+Migrating to CreateFacilities (20100422080830)
+Migrating to CreatePlayerLevels (20100422081100)
+Migrating to CreateTournamentCategories (20100422081214)
+Migrating to CreateAccountPlayingDetails (20100422081408)
+Migrating to CreateTournaments (20100422081534)
+Migrating to CreateTournamentDivisions (20100422081739)
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ create table facilities_tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	tournament_division_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_division_id) references tournament_divisions(id) on delete cascade on update cascade,
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade
+	)Engine=InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081919')[0m
+Migrating to CreateTournamentPlayers (20100422082041)
+  [4;35;1mSQL (110.0ms)[0m   [0m
+ create table tournament_players(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	account_id INT(11) UNSIGNED NOT NULL,
+	tournament_id INT(11) UNSIGNED NOT NULL,
+	division_id INT(11) UNSIGNED default NULL,
+	level_id INT(11) UNSIGNED NOT NULL,
+	category_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_id) references tournaments(id) on delete cascade on update cascade,
+	Foreign key(account_id) references accounts(id) on delete cascade on update cascade,
+	Foreign key(division_id) references tournament_divisions(id) on delete cascade on update cascade,
+	Foreign key(level_id) references player_levels(id) on delete cascade on update cascade,
+	Foreign key(category_id) references tournament_categories(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082041')[0m
+Migrating to CreateDivisionalGames (20100422082145)
+  [4;35;1mSQL (94.0ms)[0m   [0m
+ create table divisional_games(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	division_id INT(11) UNSIGNED not NULL,
+	week_number INT(11) UNSIGNED not NULL,
+	starts INT(11) UNSIGNED not null,
+	ends INT(11) UNSIGNED not null,
+	player1 INT(11) UNSIGNED not null,
+	player2 INT(11) UNSIGNED not null,
+	player1_set1 INT(11) UNSIGNED default NULL,
+	player1_set2 INT(11) UNSIGNED default NULL,
+	player1_set3 INT(11) UNSIGNED default NULL,
+	player2_set1 INT(11) UNSIGNED default NULL,
+	player2_set2 INT(11) UNSIGNED default NULL,
+	player2_set3 INT(11) UNSIGNED default NULL,
+	Primary key(id),
+	Foreign key(player1) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(player2) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(division_id) references tournament_divisions(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082145')[0m
+Migrating to CreatePlayersPlayoffs (20100422082340)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,0) not null default 0,
+	game_date INT(11) UNSIGNED not NULL,
+	points INT(11) U' at line 6: 
+ create table players_playoffs(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	player INT(11) UNSIGNED not NULL,
+	opponent INT(11) UNSIGNED default NULL,
+	divisional_game_id INT(11) UNSIGNED default NULL,
+	game_status enum(1,0) not null default 0,
+	game_date INT(11) UNSIGNED not NULL,
+	points INT(11) UNSIGNED not NULL,
+	Primary key(id),
+	Foreign key(player) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(opponent) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(divisional_game_id) references divisional_games(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+Migrating to CreateAccounts (20100422080227)
+Migrating to CreateAccountProfiles (20100422080353)
+Migrating to CreateFacilities (20100422080830)
+Migrating to CreatePlayerLevels (20100422081100)
+Migrating to CreateTournamentCategories (20100422081214)
+Migrating to CreateAccountPlayingDetails (20100422081408)
+Migrating to CreateTournaments (20100422081534)
+Migrating to CreateTournamentDivisions (20100422081739)
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+Migrating to CreateTournamentPlayers (20100422082041)
+Migrating to CreateDivisionalGames (20100422082145)
+Migrating to CreatePlayersPlayoffs (20100422082340)
+  [4;35;1mSQL (62.0ms)[0m   [0m
+ create table players_playoffs(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	player INT(11) UNSIGNED not NULL,
+	opponent INT(11) UNSIGNED default NULL,
+	divisional_game_id INT(11) UNSIGNED default NULL,
+	game_status enum('1','0') not null default '0',
+	game_date INT(11) UNSIGNED not NULL,
+	points INT(11) UNSIGNED not NULL,
+	Primary key(id),
+	Foreign key(player) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(opponent) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(divisional_game_id) references divisional_games(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082340')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSHOW FIELDS FROM `account_playing_details`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `account_playing_details`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `account_playing_details`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `account_profiles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `account_profiles`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW KEYS FROM `account_profiles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `accounts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `accounts`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `divisional_games`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `divisional_games`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW KEYS FROM `divisional_games`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `facilities`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `facilities`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `facilities`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `facilities_tournament_divisions`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `facilities_tournament_divisions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `facilities_tournament_divisions`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `player_levels`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `player_levels`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `player_levels`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `players_playoffs`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `players_playoffs`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `players_playoffs`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tournament_categories`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `tournament_categories`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `tournament_categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tournament_divisions`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `tournament_divisions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tournament_divisions`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tournament_players`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `tournament_players`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW KEYS FROM `tournament_players`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tournaments`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `tournaments`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tournaments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePlayersPlayoffs (20100422082340)
+  [4;35;1mSQL (125.0ms)[0m   [0mDROP TABLE `players_playoffs`[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422082340'[0m
+Migrating to CreateDivisionalGames (20100422082145)
+  [4;35;1mSQL (78.0ms)[0m   [0mDROP TABLE `divisional_games`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422082145'[0m
+Migrating to CreateTournamentPlayers (20100422082041)
+  [4;35;1mSQL (62.0ms)[0m   [0mDROP TABLE `tournament_players`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422082041'[0m
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;35;1mSQL (78.0ms)[0m   [0mDROP TABLE `facilities_tournament_divisions`[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081919'[0m
+Migrating to CreateTournamentDivisions (20100422081739)
+  [4;35;1mSQL (47.0ms)[0m   [0mDROP TABLE `tournament_divisions`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081739'[0m
+Migrating to CreateTournaments (20100422081534)
+  [4;35;1mSQL (63.0ms)[0m   [0mDROP TABLE `tournaments`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081534'[0m
+Migrating to CreateAccountPlayingDetails (20100422081408)
+  [4;35;1mSQL (47.0ms)[0m   [0mDROP TABLE `account_playing_details`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081408'[0m
+Migrating to CreateTournamentCategories (20100422081214)
+  [4;35;1mSQL (47.0ms)[0m   [0mDROP TABLE `tournament_categories`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081214'[0m
+Migrating to CreatePlayerLevels (20100422081100)
+  [4;35;1mSQL (78.0ms)[0m   [0mDROP TABLE `player_levels`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422081100'[0m
+Migrating to CreateFacilities (20100422080830)
+  [4;35;1mSQL (62.0ms)[0m   [0mDROP TABLE `facilities`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422080830'[0m
+Migrating to CreateAccountProfiles (20100422080353)
+  [4;35;1mSQL (78.0ms)[0m   [0mDROP TABLE `account_profiles`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422080353'[0m
+Migrating to CreateUsers (20100422075648)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePlayersPlayoffs (20100422082340)
+Migrating to CreateDivisionalGames (20100422082145)
+Migrating to CreateTournamentPlayers (20100422082041)
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+Migrating to CreateTournamentDivisions (20100422081739)
+Migrating to CreateTournaments (20100422081534)
+Migrating to CreateAccountPlayingDetails (20100422081408)
+Migrating to CreateTournamentCategories (20100422081214)
+Migrating to CreatePlayerLevels (20100422081100)
+Migrating to CreateFacilities (20100422080830)
+Migrating to CreateAccountProfiles (20100422080353)
+Migrating to CreateUsers (20100422075648)
+  [4;35;1mSQL (78.0ms)[0m   [0mDROP TABLE `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100422075648'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `accounts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `accounts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100422075648)
+  [4;35;1mSQL (63.0ms)[0m   [0m
+ CREATE TABLE users(
+		id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+		time_created INT(11) UNSIGNED NOT NULL,
+		deleted enum('Yes','No') NOT NULL default 'No',
+		login varchar(50) default NULL,
+		name varchar(50) default NULL,
+		email varchar(50) default NULL,
+		account_type varchar(50) NOT NULL,
+		salt varchar(50) default NULL,
+		remember_token varchar(50) default NULL,
+		remember_token_expires_at datetime default NULL,
+		crypted_password varchar(255) default NULL,
+		PRIMARY KEY (id)
+		) ENGINE=InnoDB;
+	[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422075648')[0m
+Migrating to CreateAccountProfiles (20100422080353)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ CREATE TABLE account_profiles (
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	first_name varchar(30) not null,
+	last_name varchar(30) default null,
+	gender enum('m', 'f') NOT NULL default 'm',
+	address1 varchar(50) not NULL,
+	address2 varchar(50) default NULL,
+	city varchar(30) not null,
+	state varchar(30) not null,
+	zipcode varchar(10) not null,
+	contact_number varchar(15) not null,
+	email_address varchar(50) not null,
+	user_id int(11) UNSIGNED NOT Null,
+	PRIMARY KEY (id),
+	Foreign key(user_id) references users(id) on delete cascade on update cascade
+	) ENGINE=InnoDB;
+ [0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422080353')[0m
+Migrating to CreateFacilities (20100422080830)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ create table facilities(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	address1 varchar(50) not NULL,
+	address2 varchar(50) default NULL,
+	city varchar(30) not null,
+	state varchar(30) not null,
+	zipcode varchar(10) not null,
+	primary key(id)
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422080830')[0m
+Migrating to CreatePlayerLevels (20100422081100)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ create table player_levels(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	primary key(id)
+	)Engine = InnoDB;
+	[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081100')[0m
+Migrating to CreateTournamentCategories (20100422081214)
+  [4;35;1mSQL (31.0ms)[0m   [0m
+ create table tournament_categories(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	primary key(id)
+	)Engine = InnoDB;
+	[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081214')[0m
+Migrating to CreateAccountPlayingDetails (20100422081408)
+  [4;35;1mSQL (94.0ms)[0m   [0m
+ create table account_playing_details(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	user_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	level_id INT(11) UNSIGNED NOT NULL,
+	verified enum('Yes','No') not null default 'No',
+	Primary key(id),
+	Foreign key(user_id) references users(id) on delete cascade on update cascade,
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade,
+	Foreign key(level_id) references player_levels(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081408')[0m
+Migrating to CreateTournaments (20100422081534)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ create table tournaments(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	city varchar(50) not null,
+	tournament_type enum('L','K') not null default 'L',
+	kind_of_tournament enum('O','S') not null default 'O',
+	registration_starts INT(11) UNSIGNED NOT NULL,
+	registration_ends INT(11) UNSIGNED NOT NULL,
+	tournament_starts INT(11) UNSIGNED NOT NULL,
+	category_id INT(11) UNSIGNED NOT null,
+	primary key(id)
+	)Engine = InnoDB;
+
+	[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081534')[0m
+Migrating to CreateTournamentDivisions (20100422081739)
+  [4;35;1mSQL (78.0ms)[0m   [0m
+ create table tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	name varchar(50) not null,
+	tournament_id INT(11) UNSIGNED NOT NULL,
+	no_of_players int(11) UNSIGNED default null,
+	Primary key(id),
+	Foreign key(tournament_id) references tournaments(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081739')[0m
+Migrating to CreateFacilitiesTournamentDivisions (20100422081919)
+  [4;35;1mSQL (156.0ms)[0m   [0m
+ create table facilities_tournament_divisions(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	tournament_division_id INT(11) UNSIGNED NOT NULL,
+	facility_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_division_id) references tournament_divisions(id) on delete cascade on update cascade,
+	Foreign key(facility_id) references facilities(id) on delete cascade on update cascade
+	)Engine=InnoDB;
+ [0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422081919')[0m
+Migrating to CreateTournamentPlayers (20100422082041)
+  [4;35;1mSQL (172.0ms)[0m   [0m
+ create table tournament_players(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	user_id INT(11) UNSIGNED NOT NULL,
+	tournament_id INT(11) UNSIGNED NOT NULL,
+	division_id INT(11) UNSIGNED default NULL,
+	level_id INT(11) UNSIGNED NOT NULL,
+	category_id INT(11) UNSIGNED NOT NULL,
+	Primary key(id),
+	Foreign key(tournament_id) references tournaments(id) on delete cascade on update cascade,
+	Foreign key(user_id) references users(id) on delete cascade on update cascade,
+	Foreign key(division_id) references tournament_divisions(id) on delete cascade on update cascade,
+	Foreign key(level_id) references player_levels(id) on delete cascade on update cascade,
+	Foreign key(category_id) references tournament_categories(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (46.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082041')[0m
+Migrating to CreateDivisionalGames (20100422082145)
+  [4;35;1mSQL (172.0ms)[0m   [0m
+ create table divisional_games(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	division_id INT(11) UNSIGNED not NULL,
+	week_number INT(11) UNSIGNED not NULL,
+	starts INT(11) UNSIGNED not null,
+	ends INT(11) UNSIGNED not null,
+	player1 INT(11) UNSIGNED not null,
+	player2 INT(11) UNSIGNED not null,
+	player1_set1 INT(11) UNSIGNED default NULL,
+	player1_set2 INT(11) UNSIGNED default NULL,
+	player1_set3 INT(11) UNSIGNED default NULL,
+	player2_set1 INT(11) UNSIGNED default NULL,
+	player2_set2 INT(11) UNSIGNED default NULL,
+	player2_set3 INT(11) UNSIGNED default NULL,
+	Primary key(id),
+	Foreign key(player1) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(player2) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(division_id) references tournament_divisions(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (62.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082145')[0m
+Migrating to CreatePlayersPlayoffs (20100422082340)
+  [4;35;1mSQL (109.0ms)[0m   [0m
+ create table players_playoffs(
+	id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	player INT(11) UNSIGNED not NULL,
+	opponent INT(11) UNSIGNED default NULL,
+	divisional_game_id INT(11) UNSIGNED default NULL,
+	game_status enum('1','0') not null default '0',
+	game_date INT(11) UNSIGNED not NULL,
+	points INT(11) UNSIGNED not NULL,
+	Primary key(id),
+	Foreign key(player) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(opponent) references tournament_players(id) on delete cascade on update cascade,
+	Foreign key(divisional_game_id) references divisional_games(id) on delete cascade on update cascade
+	)Engine = InnoDB;
+ [0m
+  [4;36;1mSQL (62.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100422082340')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `account_playing_details`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `account_playing_details`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `account_playing_details`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW FIELDS FROM `account_profiles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `account_profiles`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `account_profiles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `divisional_games`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `divisional_games`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `divisional_games`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `facilities`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `facilities`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `facilities`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW FIELDS FROM `facilities_tournament_divisions`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mdescribe `facilities_tournament_divisions`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `facilities_tournament_divisions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `player_levels`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `player_levels`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `player_levels`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `players_playoffs`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `players_playoffs`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW KEYS FROM `players_playoffs`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tournament_categories`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `tournament_categories`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tournament_categories`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tournament_divisions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `tournament_divisions`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSHOW KEYS FROM `tournament_divisions`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `tournament_players`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mdescribe `tournament_players`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `tournament_players`[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW FIELDS FROM `tournaments`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mdescribe `tournaments`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `tournaments`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-22 17:55:13) [GET]
+Rendering sessions/new
+Completed in 1703ms (View: 1703, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-22 17:55:20) [GET]
+  [4;36;1mUser Columns (47.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 156ms (View: 31, DB: 47) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-22 17:55:46) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"dsadsfadsf", "password"=>"pasword", "login"=>"admin", "email"=>"manju1505@gmail.com"}, "commit"=>"Sign up", "authenticity_token"=>"qCyzfsYQDdzJ0vvMbEJwJPlMadm+tYdI15QuS7K1FeA="}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'manju1505@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering users/new
+Completed in 188ms (View: 141, DB: 0) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-22 17:56:06) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"asdfghj", "password"=>"asdfghj", "login"=>"admin", "email"=>"manju1505@gmail.com"}, "commit"=>"Sign up", "authenticity_token"=>"qCyzfsYQDdzJ0vvMbEJwJPlMadm+tYdI15QuS7K1FeA="}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'admin') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'manju1505@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering users/new
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-04-22 17:57:01) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-22 17:57:37) [GET]
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering users/new
+Completed in 63ms (View: 16, DB: 15) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-22 17:57:51) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"asdfghj", "password"=>"asdfghj", "login"=>"album", "email"=>"asad@gmail.com"}, "commit"=>"Sign up", "authenticity_token"=>"qCyzfsYQDdzJ0vvMbEJwJPlMadm+tYdI15QuS7K1FeA="}
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`login` = BINARY 'album') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'asad@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mMysql::Error: Column 'time_created' cannot be null: INSERT INTO `users` (`name`, `salt`, `crypted_password`, `time_created`, `remember_token_expires_at`, `account_type`, `deleted`, `remember_token`, `login`, `email`) VALUES(NULL, 'fc6d05de5f3a52c4761b14ccd1257ea3380ee9c5', 'cfe1a11671ad53b2f704fcefae19569fcbf46a02', NULL, NULL, NULL, 'No', NULL, 'album', 'asad@gmail.com')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Column 'time_created' cannot be null: INSERT INTO `users` (`name`, `salt`, `crypted_password`, `time_created`, `remember_token_expires_at`, `account_type`, `deleted`, `remember_token`, `login`, `email`) VALUES(NULL, 'fc6d05de5f3a52c4761b14ccd1257ea3380ee9c5', 'cfe1a11671ad53b2f704fcefae19569fcbf46a02', NULL, NULL, NULL, 'No', NULL, 'album', 'asad@gmail.com')):
+  app/controllers/users_controller.rb:14:in `create'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)

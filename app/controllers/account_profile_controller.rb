@@ -1,0 +1,2 @@
+class AccountProfileController < ApplicationController
+end
