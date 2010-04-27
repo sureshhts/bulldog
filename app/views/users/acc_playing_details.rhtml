@@ -1,0 +1,48 @@
+<div>
+
+<h3>Account Playing Details </h3>
+
+<div>
+<% form_for(:playing_details, :url => {:controller => 'users', :action => 'create_playing_details'}, :html => { :multipart => true }) do |f| %>
+<table width="95%">
+
+<tr>
+  <td><%= f.hidden_field :user_id, :value => params[:id] %></td>
+</tr>
+
+<tr>
+ <td>Facility</td>
+  <td>
+ <select name="account[facility_id]" id="account_facility_id" >
+ <%@facilties.each do |f| %>
+ <option value="">Select the facility</option>
+ <option value="<%=f.id%>"><%=f.name%></option>
+ <%end%>
+ </select>
+</td>
+</tr>
+
+
+<tr>
+ <td>Level</td>
+  <td>
+ <select name="account[level_id]" id="account_level_id" >
+ <%@level.each do |l| %>
+ <option value="">Select the level</option>
+ <option value="<%=l.id%>"><%=l.name%></option>
+ <%end%>
+ <option value="other">Other</option>
+ </select>
+</td>
+</tr>
+
+<tr>
+	<td>
+	<%= submit_tag "Submit" %>
+	<%= submit_tag "Cancel" %>
+	</td>
+</tr>
+
+</table>
+<%end%>
+</div>
